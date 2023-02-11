@@ -1,21 +1,23 @@
 :root {
-    --color-body: #E5E5E5;
+    --color-body: #ffff;
     --color-primery: #2E2F42;
     --color-secondary: #434455;
     --color-brand: #4D5AE5;
     --color-firstlight: #F4F4FD;
     --color-secondlight: #E7E9FC;
     --color-withlight: #ffff;
+    --color-pressed: #404bbf;
 }
 
 body {
-    background-color: var(--color-body);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
+    color: var(--color-primery);
 }
 
 
+
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
     color: var(--color-primery);
     font-size: 18px;
@@ -27,13 +29,6 @@ body {
 
 .nameone {
     color: var(--color-brand);
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 0.03em;
-    line-height: 1.333;
-
-
 }
 
 
@@ -52,7 +47,6 @@ body {
     color: var(--color-primery);
     text-decoration: none;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
@@ -73,7 +67,6 @@ body {
 .address a {
     color: var(--color-secondary);
     font-size: 16px;
-    font-weight: 400;
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -85,9 +78,8 @@ body {
 
 .hero h1 {
     font-size: 56px;
-    background-color: var(--color-secondary);
     color: var(--color-withlight);
-    width: 100%;
+    width: 496px;
     line-height: 1.071;
     letter-spacing: 0.02em;
 }
@@ -104,7 +96,7 @@ body {
     background-color: var(--color-brand);
     cursor: pointer;
     border-radius: 4px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -112,11 +104,11 @@ body {
 }
 
 .orderbut:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-pressed);
 }
 
 .orderbut:focus {
-    background-color: var(--color-secondary);
+    background-color: var(--color-pressed);
 }
 
 .title h3 {
@@ -129,7 +121,6 @@ body {
 }
 
 .title p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -173,7 +164,6 @@ body {
 }
 
 .team p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -190,7 +180,7 @@ body {
 }
 
 .foot p {
-    font-weight: 400;
+    width: 266px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -198,7 +188,7 @@ body {
 }
 
 .footer-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
     color: var(--color-brand);
     font-size: 18px;
@@ -262,7 +252,6 @@ body {
 }
 
 .rows p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
