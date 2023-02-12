@@ -11,8 +11,20 @@
 
 body {
     font-family: Roboto, sans-serif;
-    color: var(--color-primery);
+
+    color: var(--color-primery)
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
 
 
 
@@ -76,12 +88,24 @@ body {
     color: var(--color-brand);
 }
 
+.section {
+    padding: 120px 0;
+}
+
+/*HERO SECTION*/
 .hero h1 {
     font-size: 56px;
     color: var(--color-withlight);
     width: 496px;
     line-height: 1.071;
     letter-spacing: 0.02em;
+}
+
+.container {
+    max-width: 1185px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 .hero {
